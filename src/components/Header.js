@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useRef } from "react";
 import Form from "./Form";
 import Navigation from "./Navigation";
 
 const Header = ({ history, handleSubmit }) => {
+  const textEntry = useRef();
+
   return (
-    <div>
+    <div >
       <h1>SnapShot</h1>
-      <Form history={history} handleSubmit={handleSubmit} />
-      <Navigation />
+      <Form textEntry = {textEntry}  history={history} handleSubmit={handleSubmit} />
+      <Navigation textEntry={textEntry} />
     </div>
   );
 };
