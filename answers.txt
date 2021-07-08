@@ -1,0 +1,6 @@
+
+the second it is impractical when the page contains a lot of images, then will be disturbing scroll up to see the information and geolocation
+
+
+the third approache
+with hover event, the image does not take a good place, it is still hovering at the image does not take one place, will be good when changing the way of appearance tooltip by click at the image rather than hover 
